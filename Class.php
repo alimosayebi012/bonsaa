@@ -3,7 +3,7 @@ ob_start();
 define('460835958:AAFfHz1Pr-yLTxhUJzNoyL1CRur7echkjxw');
 /* تیم سازنده : @Lite_Team
    نویسنده : @mohammadstar_98 */
-$token = API_KEY;
+$token = 460835958:AAFfHz1Pr-yLTxhUJzNoyL1CRur7echkjxw;
 $admin =  356850459;
 $GetINFObot = json_decode(file_get_contents("https://api.telegram.org/bot".API_KEY."/getMe"));
 $UserNameBot = $GetINFObot->result->username;
